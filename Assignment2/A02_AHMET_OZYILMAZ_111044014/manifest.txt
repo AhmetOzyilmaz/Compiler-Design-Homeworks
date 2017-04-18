@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: A02_AHMET_OZYILMAZ_111044014
