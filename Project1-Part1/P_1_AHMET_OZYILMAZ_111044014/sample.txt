@@ -1,0 +1,9 @@
+read x;
+x := x * 10;
+write x;
+y := x + 10;
+write y;
+x := x + y * 10;
+write x;
+z := y + x / 10;
+write z;
