@@ -1,0 +1,28 @@
+digraph CFG
+{
+node [shape=box, style=filled, fontsize=18, color=black, fontcolor=white, width=0.3, height=0.2];
+edge [color=black, fontsize=5, fontcolor=black];
+
+entry [label=entry, fontcolor=black, color=grey];
+exit [label=exit, fontcolor=black, color=grey];
+
+A [label=a, color=red, fontcolor=white];
+B [label=b, color=red, fontcolor=white];
+C [label=c, color=red, fontcolor=white];
+D [label=d, color=red, fontcolor=white];
+E [label=e, color=red, fontcolor=white];
+F [label=f, color=red, fontcolor=white];
+
+entry -> A
+
+A -> B
+A -> C
+A -> E
+B -> C
+B -> D
+C -> F
+D -> F
+E -> D
+
+F -> exit
+}
