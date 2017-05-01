@@ -1,9 +1,23 @@
 package com.company.ProjectPart2;
 
+import java.io.*;
+import java.nio.charset.Charset;
+import java.util.Vector;
+
 /**
  * Created by ASUS on 1.05.2017.
  */
 public class FileOperationClass {
+
+    private Vector<String> data = new Vector<>();
+
+
+    public FileOperationClass(String inputFile) {
+        this.inputFile = inputFile;
+
+
+
+    }
 
     public void WriteFile(){
 
@@ -11,10 +25,30 @@ public class FileOperationClass {
         //
     }
     public void ReadFile(){
+       GetALLLine();
 
+        for (int i = 0; i < data.size() ; i++) {
+            System.out.println(data.get(i));
+        }
 
         //
 
+    }
+    public void GetALLLine(){
+        String line = null;
+        try {
+            FileReader reader = new FileReader(getInputFile());
+            BufferedReader br = new BufferedReader(reader);
+
+
+            while ((line = br.readLine()) != null) {
+                data.add(line);
+            }
+            reader.close();
+
+        } catch (IOException e) {
+            System.out.println("Exception caughted" + e.toString() + " " + e.getStackTrace()[0
+                    ].getLineNumber()+ "All Line Of Code have to end with semicolon");        }
     }
 
     public String getInputFile() {
@@ -37,36 +71,6 @@ public class FileOperationClass {
     private String outputFile;
 
 
-    /**
-     * Created by ASUS on 1.05.2017.
-     */
-    public static class mmry {
-        mmry(int i,int v){
-            index=i;
-            value=v;
-        }
-        mmry(){
-            index=0;
-            value=0;
-        }
-        int index;
-        int value;
-
-    }
-
-    /**
-     * Created by ASUS on 1.05.2017.
-     */
-    public static class Simulator {
-
-        FileOperationClass file = new FileOperationClass();
-        public Simulator(String filename) {
-            file.setInputFile(filename);// will converted file
-        }
-        public void Simulate(){
 
 
-        }
-
-    }
 }

@@ -15,7 +15,7 @@ public class Main {
         else if(args.length == 1)
         {
             String filename = args[0];
-            FileOperationClass.Simulator Sim = new FileOperationClass.Simulator(filename);
+            Simulator Sim = new Simulator(filename);
 
             Sim.Simulate();
             //Simulate sim(filename,mode);
