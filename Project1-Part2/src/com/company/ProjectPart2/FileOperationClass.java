@@ -19,17 +19,25 @@ public class FileOperationClass {
 
     }
 
-    public void WriteFile(){
+    public void WriteFile(String line) throws IOException {
 
-
-        //
+        try{
+            OutputStreamWriter writer = new OutputStreamWriter(
+                    new FileOutputStream(getOutputFile(), true), "UTF-8");
+            BufferedWriter fbw = new BufferedWriter(writer);
+            fbw.write(line);
+            fbw.newLine();
+            fbw.close();
+        }catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
-    public void ReadFile(){
+    public void ReadFile() throws IOException {
        GetALLLine();
 
-        for (int i = 0; i < data.size() ; i++) {
-            System.out.println(data.get(i));
-        }
+        // for (int i = 0; i < data.size() ; i++) {
+         //   System.out.println(data.get(i));
+       // }
 
         //
 
@@ -68,7 +76,7 @@ public class FileOperationClass {
     }
 
     private String inputFile;
-    private String outputFile;
+    private String outputFile = "output.asm";
 
 
 
