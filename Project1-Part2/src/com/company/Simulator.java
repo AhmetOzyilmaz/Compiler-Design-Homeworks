@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.ProjectPart1.Semantic;
 import com.company.ProjectPart2.FileOperationClass;
 
 import java.io.IOException;
@@ -26,9 +27,19 @@ public class Simulator {
 
     public void Simulate() throws IOException {
 
-        f.ReadFile();
-        f.WriteFile("ahmet");
-        f.WriteFile("mehmet");
+        Semantic customer=new Semantic();
+        customer.ReadData(getFilename());
+        try {
+            customer.Program(getFilename());
+        } catch (Exception e) {
+            System.out.println("Exception caughted" + e.toString() + " " + e.getStackTrace()[0
+                    ].getLineNumber());
+        }
+
+
+
+
+
 
     }
 }
