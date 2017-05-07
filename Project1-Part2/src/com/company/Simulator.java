@@ -19,6 +19,8 @@ public class Simulator {
 
     public String Filename ;
     public FileOperationClass f = new FileOperationClass(getFilename());
+    public InstructionSets I = new InstructionSets();
+
 
     public Simulator(String filename) {
         Filename = filename;
@@ -36,10 +38,9 @@ public class Simulator {
                     ].getLineNumber());
         }
 
-
-
-
-
+        System.out.println(I.IN(1,3,4,5));
+        System.out.println(I.LDC(1,3,4,5));
+        System.out.println(I.SUB(1,3,4,5));
 
     }
 }
