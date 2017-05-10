@@ -88,7 +88,6 @@ public class InstructionSets {
         return value;
     }
 
-
     //3: JLE 5,11(7);jump to other
     public String JLE(int lineNum,int par1,int par2, int par3){
         //read integer value form standart input
@@ -106,8 +105,6 @@ public class InstructionSets {
         value = lineNum+": JGT "+par1+","+par2+"("+par3+")";
         return value;
     }
-
-
 
     public String JLT(int lineNum,int par1,int par2, int par3){
         //read integer value form standart input

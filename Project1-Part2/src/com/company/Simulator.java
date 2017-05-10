@@ -38,9 +38,7 @@ public class Simulator {
                     ].getLineNumber());
         }
 
-        System.out.println(I.IN(1,3,4,5));
-        System.out.println(I.LDC(1,3,4,5));
-        System.out.println(I.SUB(1,3,4,5));
+       // System.out.println(I.IN(1,3,4,5));
 
     }
 }
