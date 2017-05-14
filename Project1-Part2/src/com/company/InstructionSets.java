@@ -129,8 +129,6 @@ public class InstructionSets {
 
     //***************
 
-
-
     //27: HALT 0,0,0;
     public String HALT(int lineNum,int par1,int par2, int par3){
         //read integer value form standart input

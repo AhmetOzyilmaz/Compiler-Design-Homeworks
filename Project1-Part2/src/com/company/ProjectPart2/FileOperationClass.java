@@ -15,10 +15,7 @@ public class FileOperationClass {
     public FileOperationClass(String inputFile) {
         this.inputFile = inputFile;
 
-
-
     }
-
     public void WriteFile(String line) throws IOException {
 
         try{
@@ -34,13 +31,6 @@ public class FileOperationClass {
     }
     public void ReadFile() throws IOException {
        GetALLLine();
-
-        // for (int i = 0; i < data.size() ; i++) {
-         //   System.out.println(data.get(i));
-       // }
-
-        //
-
     }
     public void GetALLLine(){
         String line = null;
@@ -58,27 +48,18 @@ public class FileOperationClass {
             System.out.println("Exception caughted" + e.toString() + " " + e.getStackTrace()[0
                     ].getLineNumber()+ "All Line Of Code have to end with semicolon");        }
     }
-
     public String getInputFile() {
         return inputFile;
     }
-
     public void setInputFile(String inputFile) {
         this.inputFile = inputFile;
     }
-
     public String getOutputFile() {
         return outputFile;
     }
-
     public void setOutputFile(String outputFile) {
         this.outputFile = outputFile;
     }
-
     private String inputFile;
     private String outputFile = "output.asm";
-
-
-
-
 }

@@ -27,7 +27,6 @@ public class Lexical {
 
     private Map<String , String> reservedKeyWord = new HashMap();
 
-
     public boolean isFactor(String line){
 
         if(isId(line) || isNum(line))
@@ -148,8 +147,9 @@ public class Lexical {
     }
     public boolean isWriteStmt(String input){
         String out[] = input.split(" "); // we cut our line of code for parsing
-        if(out[0].equals("read") && isId(out[1]))
-            return true;
+        if(out[0].equals("write") && isId(out[1])){
+
+            return true;}
         return false;
     }
     public boolean assignStmt(String input){
@@ -227,15 +227,10 @@ public class Lexical {
     public boolean isReserved(String comp){
 
         for (String s:reservedKeyWord.keySet()){
-            if(s.equals(comp)==true)
-            {
-                return true;
-            }
+            if(s.equals(comp)==true) return true;
         }
         return false;
     }
-   /*
-        *   program --> stmts
-    * */
+
 
 }

@@ -11,7 +11,7 @@ import java.util.*;
 public class Semantic {
     public CodeGen code  = new CodeGen();
     public Lexical useFunc = new Lexical();
-    private Vector<String> data = new Vector<>();//Dosyadan gelen input
+    public Vector<String> data = new Vector<>();//Dosyadan gelen input
     private HashMap<String, ArrayList<Integer>> TableData = new HashMap<String, ArrayList<Integer>>();
     private Map<String , String> reservedKeyWord = new HashMap();
 
