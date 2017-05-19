@@ -19,8 +19,8 @@
       <file leaf-file-name="Simulator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="707">
+              <caret line="64" column="82" lean-forward="true" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -29,9 +29,10 @@
       <file leaf-file-name="Semantic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart1/Semantic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="119">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
+                <element signature="method#Syntex_Tree_Parse#0;class#Semantic#0" expanded="false" />
                 <element signature="method#Program#0;class#Semantic#0" expanded="false" />
                 <element signature="method#Error_Check_Source#0;class#Semantic#0" expanded="false" />
                 <element signature="method#LineParser#0;class#Semantic#0" expanded="false" />
@@ -49,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart2/FileOperationClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="method#FileOperationClass#0;class#FileOperationClass#0" expanded="false" />
                 <element signature="method#WriteFile#0;class#FileOperationClass#0" expanded="false" />
@@ -60,21 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.asm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.asm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InstructionSets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/InstructionSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="method#IN#0;class#InstructionSets#0" expanded="false" />
                 <element signature="method#ADD#0;class#InstructionSets#0" expanded="false" />
@@ -109,12 +100,11 @@
       <file leaf-file-name="Lexical.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart1/Lexical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="114" column="37" lean-forward="true" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
               <folding>
                 <element signature="method#FillReservedWord#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isFactor#0;class#Lexical#0" expanded="false" />
-                <element signature="method#isId#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isNum#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isEos#0;class#Lexical#0" expanded="false" />
                 <element signature="method#iscompop#0;class#Lexical#0" expanded="false" />
@@ -122,7 +112,6 @@
                 <element signature="method#ismulop#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isassignnop#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isTerm#0;class#Lexical#0" expanded="false" />
-                <element signature="method#isExpression#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isSimpleExpression#0;class#Lexical#0" expanded="false" />
                 <element signature="method#isReadStmt#0;class#Lexical#0" expanded="false" />
                 <element signature="method#assignStmt#0;class#Lexical#0" expanded="false" />
@@ -139,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/input.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -148,8 +137,18 @@
       <file leaf-file-name="exampleAsm.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exampleAsm.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="17">
+              <caret line="1" column="101" lean-forward="true" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.asm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.asm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,12 +187,13 @@
         <option value="$PROJECT_DIR$/src/com/company/ProjectPart2/instruction.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/register.java" />
-        <option value="$PROJECT_DIR$/src/com/company/InstructionSets.java" />
         <option value="$PROJECT_DIR$/src/com/company/ProjectPart2/FileOperationClass.java" />
         <option value="$PROJECT_DIR$/input.c" />
         <option value="$PROJECT_DIR$/src/com/company/ProjectPart1/Semantic.java" />
         <option value="$PROJECT_DIR$/src/com/company/ProjectPart1/Lexical.java" />
         <option value="$PROJECT_DIR$/output.asm" />
+        <option value="$PROJECT_DIR$/src/com/company/InstructionSets.java" />
+        <option value="$PROJECT_DIR$/exampleAsm.txt" />
         <option value="$PROJECT_DIR$/src/com/company/Simulator.java" />
       </list>
     </option>
@@ -227,6 +227,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +296,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -710,14 +710,15 @@
       <workItem from="1494188029546" duration="3792000" />
       <workItem from="1494607524965" duration="1612000" />
       <workItem from="1494793819168" duration="2997000" />
+      <workItem from="1495185922173" duration="1521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22323000" />
+    <option name="totallyTimeSpent" value="23844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -735,7 +736,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17643923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -750,6 +751,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3322185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -759,7 +791,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -823,7 +855,6 @@
           <folding>
             <element signature="method#FillReservedWord#0;class#Lexical#0" expanded="false" />
             <element signature="method#isFactor#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isId#0;class#Lexical#0" expanded="false" />
             <element signature="method#isNum#0;class#Lexical#0" expanded="false" />
             <element signature="method#isEos#0;class#Lexical#0" expanded="false" />
             <element signature="method#iscompop#0;class#Lexical#0" expanded="false" />
@@ -831,7 +862,6 @@
             <element signature="method#ismulop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isassignnop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isTerm#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isSimpleExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isReadStmt#0;class#Lexical#0" expanded="false" />
             <element signature="method#assignStmt#0;class#Lexical#0" expanded="false" />
@@ -866,6 +896,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#Syntex_Tree_Parse#0;class#Semantic#0" expanded="false" />
             <element signature="method#Program#0;class#Semantic#0" expanded="false" />
             <element signature="method#Error_Check_Source#0;class#Semantic#0" expanded="false" />
             <element signature="method#LineParser#0;class#Semantic#0" expanded="false" />
@@ -946,7 +977,6 @@
           <folding>
             <element signature="method#FillReservedWord#0;class#Lexical#0" expanded="false" />
             <element signature="method#isFactor#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isId#0;class#Lexical#0" expanded="false" />
             <element signature="method#isNum#0;class#Lexical#0" expanded="false" />
             <element signature="method#isEos#0;class#Lexical#0" expanded="false" />
             <element signature="method#iscompop#0;class#Lexical#0" expanded="false" />
@@ -954,7 +984,6 @@
             <element signature="method#ismulop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isassignnop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isTerm#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isSimpleExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isReadStmt#0;class#Lexical#0" expanded="false" />
             <element signature="method#assignStmt#0;class#Lexical#0" expanded="false" />
@@ -1059,6 +1088,7 @@
         <state relative-caret-position="2278">
           <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding>
+            <element signature="method#Syntex_Tree_Parse#0;class#Semantic#0" expanded="false" />
             <element signature="method#Program#0;class#Semantic#0" expanded="false" />
             <element signature="method#Error_Check_Source#0;class#Semantic#0" expanded="false" />
             <element signature="method#LineParser#0;class#Semantic#0" expanded="false" />
@@ -1094,6 +1124,7 @@
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
+            <element signature="method#Syntex_Tree_Parse#0;class#Semantic#0" expanded="false" />
             <element signature="method#Program#0;class#Semantic#0" expanded="false" />
             <element signature="method#Error_Check_Source#0;class#Semantic#0" expanded="false" />
             <element signature="method#LineParser#0;class#Semantic#0" expanded="false" />
@@ -1113,7 +1144,6 @@
           <folding>
             <element signature="method#FillReservedWord#0;class#Lexical#0" expanded="false" />
             <element signature="method#isFactor#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isId#0;class#Lexical#0" expanded="false" />
             <element signature="method#isNum#0;class#Lexical#0" expanded="false" />
             <element signature="method#isEos#0;class#Lexical#0" expanded="false" />
             <element signature="method#iscompop#0;class#Lexical#0" expanded="false" />
@@ -1121,7 +1151,6 @@
             <element signature="method#ismulop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isassignnop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isTerm#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isSimpleExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isReadStmt#0;class#Lexical#0" expanded="false" />
             <element signature="method#assignStmt#0;class#Lexical#0" expanded="false" />
@@ -1203,9 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,18 +1251,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.c">
+    <entry file="file://$PROJECT_DIR$/Proje1 Part2.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/InstructionSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="method#IN#0;class#InstructionSets#0" expanded="false" />
             <element signature="method#ADD#0;class#InstructionSets#0" expanded="false" />
@@ -1257,14 +1282,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exampleAsm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="101" lean-forward="true" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart1/Lexical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="114" column="37" lean-forward="true" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
           <folding>
             <element signature="method#FillReservedWord#0;class#Lexical#0" expanded="false" />
             <element signature="method#isFactor#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isId#0;class#Lexical#0" expanded="false" />
             <element signature="method#isNum#0;class#Lexical#0" expanded="false" />
             <element signature="method#isEos#0;class#Lexical#0" expanded="false" />
             <element signature="method#iscompop#0;class#Lexical#0" expanded="false" />
@@ -1272,7 +1312,6 @@
             <element signature="method#ismulop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isassignnop#0;class#Lexical#0" expanded="false" />
             <element signature="method#isTerm#0;class#Lexical#0" expanded="false" />
-            <element signature="method#isExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isSimpleExpression#0;class#Lexical#0" expanded="false" />
             <element signature="method#isReadStmt#0;class#Lexical#0" expanded="false" />
             <element signature="method#assignStmt#0;class#Lexical#0" expanded="false" />
@@ -1284,40 +1323,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart2/FileOperationClass.java">
+    <entry file="file://$PROJECT_DIR$/input.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="method#FileOperationClass#0;class#FileOperationClass#0" expanded="false" />
-            <element signature="method#WriteFile#0;class#FileOperationClass#0" expanded="false" />
-            <element signature="method#ReadFile#0;class#FileOperationClass#0" expanded="false" />
-            <element signature="method#GetALLLine#0;class#FileOperationClass#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.asm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proje1 Part2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart1/Semantic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
+            <element signature="method#Syntex_Tree_Parse#0;class#Semantic#0" expanded="false" />
             <element signature="method#Program#0;class#Semantic#0" expanded="false" />
             <element signature="method#Error_Check_Source#0;class#Semantic#0" expanded="false" />
             <element signature="method#LineParser#0;class#Semantic#0" expanded="false" />
@@ -1330,18 +1349,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exampleAsm.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ProjectPart2/FileOperationClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="method#FileOperationClass#0;class#FileOperationClass#0" expanded="false" />
+            <element signature="method#WriteFile#0;class#FileOperationClass#0" expanded="false" />
+            <element signature="method#ReadFile#0;class#FileOperationClass#0" expanded="false" />
+            <element signature="method#GetALLLine#0;class#FileOperationClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="707">
+          <caret line="64" column="82" lean-forward="true" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
           <folding />
         </state>
       </provider>

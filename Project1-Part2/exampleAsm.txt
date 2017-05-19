@@ -1,5 +1,5 @@
 0: IN 0,0,0 ;read limit
-1: LDC 1,1(0) ;1, and reg 2 as a counter, reg 3 sum of odd, reg4 sum of even
+1: LDC 1,1(0) ;1, and reg 2 as a counter, reg 3 sum of odd, reg4 sum of even  Load register 1  1 ekle
 
 2: SUB 5,0,1; 
 3: JLE 5,11(7);jump to other

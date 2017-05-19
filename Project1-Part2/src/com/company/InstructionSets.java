@@ -6,9 +6,6 @@ package com.company;
 public class InstructionSets {
 
 
-
-
-
     public String IN(int lineNum,int par1,int par2, int par3){
         //read integer value form standart input
         String value = "";
