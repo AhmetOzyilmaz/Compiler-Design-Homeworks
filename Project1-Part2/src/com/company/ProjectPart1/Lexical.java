@@ -165,34 +165,27 @@ public class Lexical {
     }
     public boolean repeatStmt(String input){
         String out[] = input.split(" "); // we cut our line of code for parsing
-        String stmts ="";
-        String expr ="";
       boolean flag =false;
-        if(out[0].equals("repeat")== false)
-            return false;
-        int i;
-        for (i = 0; i < out.length; i++) {
-            if(out[i].equals("until")==true){
-                flag=true;
-                break;
-
-            }
-        }
-        for (int j = 1; j < i ; j++) {
-            stmts+=out[j];
-        }
-        ++i;
-        for (int j = i ; j < out.length; j++) {
-          expr+=out[j];
-        }
-        if(isStrmts(stmts)==true &&  flag == true && isExpression(expr) == true)
+        if(out[0].equals("repeat")== true)
             return true;
-
         return false;
     }
-    public boolean isIfStmt(){
-
-
+    public boolean isUntilStmt(String input){
+        String out[] = input.split(" "); // we cut our line of code for parsing
+        boolean flag =false;
+        if(out[0].equals("until")== true)
+            return true;
+        return false;
+    }
+    public boolean isIfStmt(String input){
+        // will write
+        return false;
+    }
+    public boolean isEndifStmt(String input){
+        String out[] = input.split(" "); // we cut our line of code for parsing
+        boolean flag =false;
+        if(out[0].equals("end")== true)
+            return true;
         return false;
     }
     public boolean isStmt(String input){

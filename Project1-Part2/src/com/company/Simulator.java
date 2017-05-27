@@ -54,6 +54,21 @@ public class Simulator {
                 System.out.println("read sttmt");
                 FOC.WriteFile(IS.IN(i,Register[0],Register[0],0));
             }
+            else if(true == lex.repeatStmt(line)){
+                //until görene kadar
+            }
+            else if(true == lex.isIfStmt(line)){
+                //if in şartını kontrol etmesi lazım
+                //if i sağlamıyorsa if ten sonraya jump etmesi lazım
+                //uymuyorsa hiç girmicek
+                // this program not working nested if
+                while(false == lex.isEndifStmt(line)){ // until find "end" line execute if statement
+                    break;
+                }
+            }
+            else if(true == lex.assignStmt(line)) {
+
+            }
             /*else if(true == lex.is(line)){
                 System.out.println("read sttmt");
                 FOC.WriteFile(IS.IN(i,Register[0],Register[0],0));
@@ -61,6 +76,7 @@ public class Simulator {
             else
                 System.out.println("else");
         }
+        FOC.WriteFile(IS.HALT(customer.data.size(),0,0,0));
     }
     //if we have avilable register this function returnin this or if not return -1
     public int isExistNoneUseRegister(){
