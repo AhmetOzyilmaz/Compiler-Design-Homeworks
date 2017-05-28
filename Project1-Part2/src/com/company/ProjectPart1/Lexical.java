@@ -159,7 +159,7 @@ public class Lexical {
         for (int i=2 ; i< out.length; ++i)
             exp+=out[i]+" ";
 
-        if(isId(out[0])== true && isassignnop(out[1]) && isExpression(exp))
+        if(isId(out[0])== true && true == isassignnop(out[1]) )
             return true;
         return false;
     }
